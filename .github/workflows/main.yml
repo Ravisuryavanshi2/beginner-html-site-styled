@@ -26,4 +26,4 @@ jobs:
         run: |
           aws s3 cp ./index.html s3://${{ env.BUCKET_NAME }}/
           aws s3 cp ./styles/style.css s3://${{ env.BUCKET_NAME }}/
-          aws s3 cp ./images s3://${{ env.BUCKET_NAME }}/
+          aws s3 cp ./images/firefox-icon.png s3://${{ env.BUCKET_NAME }}/
